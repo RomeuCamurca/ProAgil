@@ -34,8 +34,6 @@ namespace ProAgil.API.Controllers
                 
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou");
             }
-
-            
         }
 
         // GET api/values/5
